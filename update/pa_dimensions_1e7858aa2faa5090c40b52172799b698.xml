@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_dimensions">
+    <pa_dimensions action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_58872_needit_needit">active=true^u_request_typeANYTHING<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="u_request_type" goto="false" newquery="false" operator="ANYTHING" or="false" value=""/>
+        </conditions>
+        <description>This is needit active weekly breakdown source</description>
+        <empty_value/>
+        <facts_table>x_58872_needit_needit</facts_table>
+        <field>sys_id</field>
+        <manual_breakdown/>
+        <name>NeedIt ActiceWeekly Bs</name>
+        <security_type>1</security_type>
+        <sys_class_name>pa_dimensions</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-13 09:59:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1e7858aa2faa5090c40b52172799b698</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt ActiceWeekly Bs</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>pa_dimensions_1e7858aa2faa5090c40b52172799b698</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-13 09:59:57</sys_updated_on>
+    </pa_dimensions>
+    <sys_translated_text action="delete_multiple" query="documentkey=1e7858aa2faa5090c40b52172799b698"/>
+</record_update>
